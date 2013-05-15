@@ -1,0 +1,27 @@
+{
+  "name": "terminalcaster",
+  "version": "0.0.1",
+  "config": {
+    "port": "7654"
+  },
+  "author": {
+    "name": "Oystein Steimler",
+    "email": "oystein@nyvri.net"
+  },
+  "description": "Server for terminalcaster",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "github.com/cybic/terminalcaster"
+  },
+  "keywords": [
+    "terminal",
+    "screencast"
+  ],
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
